@@ -1,5 +1,7 @@
 # Pacemaker + HDFS
 
+_This is an active repository. Code for OSDI 2020 experiments has been tagged and released as v1.0_
+
 ## HDFS cluster requirement
 We have written this README based on our experiments conducted on the CloudLab infrastructure using the APT cluster and r320 nodes. All the setup scripts expect that the same cluster is re-used for the evaluation of our HDFS + PREACT artifact. We have confirmed with the OSDI artifact evaluation committee that usage of Cloudlab can be assumed for our experiment evaluation. If a different cluster is required, please contact saukad@cs.cmu.edu.
 
