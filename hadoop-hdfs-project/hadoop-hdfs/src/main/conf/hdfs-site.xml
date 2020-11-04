@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+    <property>
+        <name>heart.redundancy.schemes.list</name>
+        <value>RS-LEGACY-6-3-1024k,RS-LEGACY-7-3-1024k</value>
+        <description>All the schemes that are being used in the cluster at this point.</description>
+    </property>
+
+    <property>
+        -<name>heart.disk.groups.list</name>
+        <value>RS-LEGACY-6-3-1024k,RS-LEGACY-7-3-1024k</value>
+        <description>All the disk-groups that are being used in the cluster at this point.</description>
+    </property>
+
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://node0.saukad-qv79471.redundancy-pg0.apt.emulab.net:9000</value>
+    </property>
+
+</configuration>

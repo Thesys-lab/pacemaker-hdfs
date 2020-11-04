@@ -1,0 +1,13 @@
+{
+  "totalNumNodes" : 21,
+  "diskGroups" : [
+    {
+      "ecPolicy" : "RS-LEGACY-6-3-1024k",
+      "numNodes" : 10
+    },
+    {
+      "ecPolicy" : "RS-LEGACY-7-3-1024k",
+      "numNodes" : 10
+    }
+  ]
+}

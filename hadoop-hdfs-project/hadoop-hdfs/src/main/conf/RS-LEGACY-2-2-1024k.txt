@@ -1,0 +1,4 @@
+h10.placement.hearty.narwhal.pdl.cmu.edu
+h11.placement.hearty.narwhal.pdl.cmu.edu
+h12.placement.hearty.narwhal.pdl.cmu.edu
+h13.placement.hearty.narwhal.pdl.cmu.edu

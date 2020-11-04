@@ -1,0 +1,17 @@
+<configuration>
+<layoutversion>1</layoutversion>
+<schemas>
+  <schema id="RS-LEGACY-7-3-1024k">
+    <codec>rs-legacy</codec>
+    <k>7</k>
+    <m>3</m>
+    <options> </options>
+  </schema>
+</schemas>
+<policies>
+  <policy>
+    <schema>RS-LEGACY-7-3-1024k</schema>
+    <cellsize>1048576</cellsize>
+  </policy>
+</policies>
+</configuration>
