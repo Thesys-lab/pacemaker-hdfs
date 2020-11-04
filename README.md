@@ -1,6 +1,4 @@
-# Evaluating HDFS + PREACT (not a main result)
-This is the PREACT enabled HDFS that is intended to show that integrating PREACT in a real distributed file system is straightforward, and to essentially show that 'it works'. The graphs of this experiment are in Fig. 8 of the paper draft uploaded to hotcrp.
-
+# Pacemaker + HDFS
 
 ## HDFS cluster requirement
 We have written this README based on our experiments conducted on the CloudLab infrastructure using the APT cluster and r320 nodes. All the setup scripts expect that the same cluster is re-used for the evaluation of our HDFS + PREACT artifact. We have confirmed with the OSDI artifact evaluation committee that usage of Cloudlab can be assumed for our experiment evaluation. If a different cluster is required, please contact saukad@cs.cmu.edu.
@@ -24,3 +22,10 @@ There are several steps involved in setting up the HDFS cluster to evaluate our 
 
 ## DFS-perf configuration
 Once the HDFS cluster has been setup, please refer to the [README](../dfs-perf/README.md) in the dfs-perf folder to run the workload and generate the evaluation numbers.
+
+
+## Reference
+This HDFS port is a part of the experiments conducted in [PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive redundancy](https://www.usenix.org/conference/osdi20/presentation/kadekodi) published at USENIX OSDI 2020.
+
+## Contact
+Saurabh Kadekodi: saukad@cs.cmu.edu
